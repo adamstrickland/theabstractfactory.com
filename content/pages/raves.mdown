@@ -1,1 +1,3 @@
 # Raves
+
+The Abstract Factory(tm) got tests?

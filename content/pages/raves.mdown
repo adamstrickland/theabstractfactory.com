@@ -1,5 +1,6 @@
 # Raves
 
-%one
-  %two
-    %three h1. The Abstract Factory(tm)... got tests?
+The **Abstract Factory**... 
+
+* got tests?
+ * you're damn right we do.

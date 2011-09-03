@@ -13,9 +13,9 @@
     %link{ :href => "/articles.xml", :rel => "alternate", :type => "application/atom+xml" }
     = haml :analytics, :layout => false
   %body{ :class => @body_class }
+  #header
+    %p.title= @heading
+    %p.subtitle= @subtitle
     #container
-      #header
-        %p.title= @heading
-        %p.subtitle= @subtitle
       = yield
       #footer

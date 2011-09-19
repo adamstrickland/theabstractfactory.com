@@ -93,10 +93,23 @@ div#container
     padding: 0.5em 1.1em
     font-size: 0.909em
   
-  div#content
-    width: $content-width
+  div#main
+    position: relative
     float: left
-    padding: 1px 1em
+      
+    div#content
+      position: absolute
+      top: 0px
+      width: $content-width
+      padding: 1px 1em
+      
+    div#sidebar
+      position: absolute
+      top: 0px
+      left: $content-width + 40px
+      width: $container-width - $content-width
+      li
+        list-style-type: none
   
   div#footer
     clear: both

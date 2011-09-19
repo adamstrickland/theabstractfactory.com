@@ -4,6 +4,7 @@ $container-width: 960px
 $content-width: 800px
 
 $tint: #D3D4D8
+$highlight: #FFFF00
 $base-color: $tint - #888
 $dark-tint: $tint - #333
 $background-tint: $tint + #222
@@ -106,13 +107,19 @@ div#container
       padding: 1em 0
 
 // The visuals
+@mixin tint-text
+  text-shadow: 0 -1px 1px white
+  
+@mixin yellow-tint-text
+  color: $highlight
+  @include tint-text
 
 @mixin dark-tint-text
   color: $dark-tint
-  text-shadow: 0 -1px 1px white
+  @include tint-text
 
 @mixin link-style
-  @include dark-tint-text
+  @include yellow-tint-text
   text-decoration: none
 
 a:link
@@ -137,7 +144,7 @@ div#header
     font-size: 327%
   p.subtitle
     font-size: 1em
-    @include dark-tint-text
+    @include yellow-tint-text
 
 div#content
   position: relative

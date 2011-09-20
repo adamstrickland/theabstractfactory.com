@@ -1,4 +1,3 @@
-rants
-raves
-runts
-rest
+who
+technology
+contact

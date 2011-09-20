@@ -81,10 +81,14 @@ img
   border: none
 
 // Layout
+
 div#header
   padding: 1em
   background-color: #000000
   height: 15em
+  
+  div#socialicons
+    float: right
 
 div#container
   width: $container-width
@@ -131,6 +135,7 @@ div#container
       padding: 1em 0
 
 // The visuals
+
 @mixin tint-text
   text-shadow: 0 -1px 1px white
   
@@ -178,3 +183,7 @@ div#content
   position: relative
   @include border-radius(0.5em)
   background-color: white
+  
+img.socialicon
+  width: 48px
+  height: 48px

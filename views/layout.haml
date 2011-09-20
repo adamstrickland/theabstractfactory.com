@@ -14,8 +14,16 @@
     = haml :analytics, :layout => false
   %body{ :class => @body_class }
   #header
-    %p.title= @heading
-    %p.subtitle= @subtitle
+    #socialicons
+      %a{:href => 'http://www.facebook.com/pages/The-Abstract-Factory/', :target => 'blank'}
+        %img.socialicon{:src => '/attachments/facebook_128x128.png'}
+      %a{:href => 'http://twitter.com/#!/TheAbstractFact', :target => 'blank'}
+        %img.socialicon{:src => '/attachments/twitter_128x128.png'}
+      %a{:href => 'https://github.com/theabstractfactory', :target => 'blank'}
+        %img.socialicon{:src => '/attachments/github_108x108.png'}
+    #title
+      %p.title= @heading
+      %p.subtitle= @subtitle
     #container
       = yield
       #footer

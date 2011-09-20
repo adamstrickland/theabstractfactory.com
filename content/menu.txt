@@ -1,3 +1,4 @@
+manifesto
 who
 technology
 contact

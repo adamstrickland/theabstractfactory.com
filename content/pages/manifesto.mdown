@@ -1,4 +1,4 @@
-# Manifesto
+# manifesto
 
 The Abstract Factory is dedicated to delivering only the highest quality software solutions. We realize this is a bold statement,
 but with an expert knowledge of software design philosophy and an unwavering dedication to test driven development we say it with confidence. 

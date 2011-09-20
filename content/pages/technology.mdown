@@ -1,6 +1,26 @@
 # technology
 
-The **Abstract Factory**... 
+* **Ruby on Rails**
+  
+  We loving working with Ruby and all of the available frameworks available today. Ruby has a whole host of available testing frameworks we can leverage to leave you with a high quality application.
+  If you're looking to build an application from scratch we strongly encourage you to give Ruby and the Rails framework a long look. 
+* **Scala**
+  
+  It's the next big thing!
+* **.net**
+  
+  The .net framework is a favorite of enterprises throughout the metroplex. With our extensive professional experience building, maintaining, and scaling .net applications we have the expertise required
+  to put your organization in a position to succeed. In addition to building custom .net applications we offer services to help incorporate test driven development and refactoring methodologies into existing
+  applications. Why would you add tests to an already aging application? Adding tests will allow your software engineering team to begin refactoring existing code which can help expand functionality or tune
+  for performance without fear!
+* **java**
+  
+  Someone write something here who knows something about Java.
+  
+* **Relational Databases**
 
-    got tests?
-    you're damn right we do.
+  This is where I'm the most comfortable.
+  
+* **NoSQL**
+
+  Everyone else is talking about it, so why shouldn't we!?

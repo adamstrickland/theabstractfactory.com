@@ -1,1 +1,6 @@
 # contact
+
+* <info@theabstractfactory.com>
+* [twitter](http://twitter.com/#!/TheAbstractFact)
+* [facebook](http://www.facebook.com/pages/The-Abstract-Factory/)
+* [github](http://github.com/theabstractfactory)

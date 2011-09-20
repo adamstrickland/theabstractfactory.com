@@ -133,22 +133,29 @@ div#container
       margin: 0
       padding: 1em 0
 
-// The visuals
-
-@mixin tint-text
-  // text-shadow: 0 -1px 1px white
+div.leftcontenttile
+  float: left
+  margin: 10px 0px 10px 0px
   
-@mixin yellow-tint-text
-  color: $highlight
-  @include tint-text
+div.rightcontenttile
+  float: right
+  margin: 10px 0px 10px 0px
+  
+div.contenttile
+  width: ($content-width / 2) - 10px
+  height: 300px
 
-@mixin dark-tint-text
+// The visuals
+  
+@mixin highlight-text
+  color: $highlight
+
+@mixin dark-text
   color: $dark-tint
-  @include tint-text
 
 @mixin link-style
   @include adjust-font-size(1.1, 0, 0)
-  @include yellow-tint-text
+  @include highlight-text
   text-decoration: none
 
 a:link
@@ -177,7 +184,7 @@ div#header
     color: $header-base-color
   p.subtitle
     font-size: 1.2em
-    @include yellow-tint-text
+    @include highlight-text
 
 div#content
   position: relative
@@ -187,3 +194,7 @@ div#content
 img.socialicon
   width: 48px
   height: 48px
+  
+div.contenttile
+  @include border-radius(0.5em)
+  background-color: #FAF8F2

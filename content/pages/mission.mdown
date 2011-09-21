@@ -1,10 +1,12 @@
 # mission
-
+### quality software first
 The Abstract Factory is dedicated to delivering only the highest quality software solutions. We realize this is a bold statement,
 but with an expert knowledge of software design philosophy and an unwavering dedication to test driven development we say it with confidence. 
 While leveraging software design patterns to achieve applications that are highly extensible is nothing new finding a software vendor with 
 the expertise and attention to detail to actually carry it out is. And test driven development, while a hot topic, and something many can s
-peak to, is a practice rarely exercised correctly. Test driven development allows us to develop more fundamentally sound application in less 
+peak to, is a practice rarely exercised correctly. 
+### test driven development
+Test driven development allows us to develop more fundamentally sound application in less 
 time. Once a given feature has been completed having full unit an integration test coverage allows for constant refactoring. The ability to 
 refactor without fear gives our engineers the ability to adapt to the ever changing requirements of a given application over the course of 
 its initial development (which will be often) and into the future as new features are added to the application. In addition, test driven
@@ -15,13 +17,13 @@ the applications UI to load up, a big time saver in and of itself, but it also r
 bit of functionality. Test can be run quickly with many permutations of input. The best part of all, once a test is written it will remain part
 of the application until it is removed. You can rest easy that changes to your code base as the result of refactoring or enhancement are backwards
 compatible!
-
+### pair programming
 We practice pair programming both amongst ourselves and with our client's developers. This ensures that when your application is complete 
 your employees are in an excellent position to maintain the application. Furthermore, it exposes your employees to test driven design and 
 development and gives us the opportunity to help guide them through the paradigm shift that is test driven development. Pair programming is also
 an excellent means of staying on point for long periods of time. Combining efforts helps individuals stay focused on the goals at hand while
 sharing knowledge at the same time.
-
+### estimation and agile methods
 When estimating time lines for projects we consider both technical debt and code review sessions. As a software product evolves, particularly 
 in an agile environment, things change and sometimes these changes lead to technical debt. Just like real debt, technical debt can be a very 
 good thing as long as it actually gets paid off! To assume a software product will not amass some amount of technical debt by not planning 

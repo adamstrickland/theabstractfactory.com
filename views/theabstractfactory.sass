@@ -148,6 +148,9 @@ div.contenttile
   width: ($content-width / 2) - 10px
   height: 300px
 
+.contentimage
+  height: 150px
+
 // The visuals
   
 @mixin highlight-text
@@ -204,17 +207,16 @@ img.socialicon
   width: 48px
   height: 48px
 
-div#gottests
-  padding: 50px
-  height: 50px
-  font-size: 155px
-
 div.contenttile
   @include drop-shadow(2px)
   background-color: white
   border-width: 1px 
   border-style: solid 
   border-color: #E2FADA
+  padding: 5px 2px 5px 2px
   
-div.question
-  @include big-font
+p.contenttiletitle
+  font-size: 150%
+
+.contentimage
+  float: left

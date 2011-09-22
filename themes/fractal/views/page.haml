@@ -1,0 +1,12 @@
+.breadcrumb
+  %a{ :href => "/" } home
+  - if @page.parent
+    %a{ :href => @page.parent.abspath }= @page.parent.heading
+    *
+  = @page.heading
+
+#main
+  #content
+    ~ @page.to_html(self)
+    = haml :summaries, :layout => false, :locals => { :pages => @page.pages, :heading => :h3 }
+  = haml :sidebar, :layout => false

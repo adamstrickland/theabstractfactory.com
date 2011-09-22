@@ -1,0 +1,29 @@
+/*
+#fuzzytitle{
+	opacity:0.4;
+	color: transparent;
+	text-shadow: 0 0 4px #cacaca;
+	font-size:78pt;
+	font-family:helvetica;
+	font-style:italic;
+	display:none;
+}
+#sharptitle{
+	color:white;
+	font-size:48pt;
+	font-family:garamond;
+	font-weight:lighter;
+}*/
+body{
+  font-family:helvetica;
+  
+  #header{
+    .title{
+      font-family:'Passero One';
+      font-size:48pt;
+    }
+    .subtitle{
+      font-size:12pt;
+    }
+  }
+}

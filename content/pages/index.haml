@@ -32,3 +32,10 @@
         %p.contenttext
           We encourage active involvement in the open source community. By using tools developed in parallel by many of the thought leaders in our industry we can streamline our own development process and your as well.
     %hr
+    
+-content_for :scripting do
+  / :javascript
+  /   $(document).ready(function(){
+  /     var $title = $('#title');
+  /     $title.fadeIn(4000, "easeInOutCirc").delay(10000).fadeOut(4000, "easeInOutCirc");
+  /   });

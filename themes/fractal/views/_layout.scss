@@ -12,6 +12,7 @@ body{
     width:100%;
     border-bottom-style:solid;
     border-bottom-width:3px;
+    padding:1em 1em 0 1em;
     
     h1.title{
       margin-top:0;
@@ -59,22 +60,34 @@ body{
     }
   }
   
-  #main{
+  #body{
     .breadcrumb{
       -moz-border-bottom-left-radius: $corner_radius;
       -moz-border-bottom-right-radius: $corner_radius;
       border-bottom-left-radius: $corner_radius;
       border-bottom-right-radius: $corner_radius;
+      border-bottom-style:solid;
+      border-left-style:solid;
+      border-right-style:solid;
+      border-bottom-width:1px;
+      border-left-width:1px;
+      border-right-width:1px;
       padding:1em;
       margin:0 2em 1em 2em;
+    }
+    
+    #content{
+      margin:1em 8em;
     }
     
     .contenttilesection{
       -moz-border-radius: $corner_radius;
       border-radius: $corner_radius;
+      border-style:solid;
+      border-width:1px;
       padding:1em;
       margin:0 auto 1em auto;
-      width:80%;
+/*      width:80%;*/
       
       .titleintheopen{
 /*        float:left;*/

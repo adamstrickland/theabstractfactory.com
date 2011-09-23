@@ -1,40 +1,37 @@
-$background_color:black;
-$text_color:#B0C4DE;
-$background_image:"http://www.pixelknete.de/dotter/dotted_bg.php?dc1=09032A&dc2=1A1532&bc1=150B47&bc2=000000&h=700";
-
-@import "color_palette";
+@import "palette";
 
 body{
-/*  # background-color:$background_color;*/
-	background:$background_color;
-	color:$text_color;
+	background:$palette_background;
+	color:$palette_font_primary;
 	
 	a{
-	  color:$text_color;
+	  color:$palette_font_primary;
   }
 	
 	#header{
-	  background-color:$p1;
-	  border-bottom-color:$p4;
+	  background-color:$palette_primary;
+	  border-bottom-color:$palette_secondary;
   }
   
-  #main{
-     background:url($background_image) repeat-x;
+  #body{
+     background:url($palette_background_image) repeat-x;
      
      .breadcrumb{
-       background-color:$p1;
+       background-color:$palette_primary;
+       border-color:$palette_background;
      }
      
      .contenttilesection{
-        background-color:$p4;
+        background-color:$palette_secondary;
+        border-color:$palette_background;
         
        .titleintheopen{
-         background-color:$p4;
+         background-color:$palette_secondary;
        }
        .contenttiles{
          .contenttile{
-           background-color:$p1;
-           border-color:$p4;
+           background-color:$palette_primary;
+           border-color:$palette_background;
          }
        }
      }

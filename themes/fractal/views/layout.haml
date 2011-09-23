@@ -17,13 +17,14 @@
     %script{ :src => "http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js", :type => "text/javascript" }
     %script{ :src => "http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js", :type => "text/javascript" }
     =haml :analytics, :layout => false
+    =yield_content :scripting
   %body{ :class => @body_class }
     #container
       #header
-        %h1.title= @heading
+        %h1#title.title=@heading
         %p.subtitle= @subtitle
         =haml :socialicons, :layout => false
-      #main
+      #body
         =yield
       #footer
         %p

@@ -20,5 +20,6 @@
 module Nesta
   class App
     use Rack::Static, :urls => ['/fractal'], :root => 'themes/fractal/public'
+    # use Rack::Static, :urls => ['/content'], :root => 'content/pages'
   end
 end

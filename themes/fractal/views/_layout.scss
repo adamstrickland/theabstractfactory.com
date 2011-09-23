@@ -1,7 +1,129 @@
+$corner_radius:15px;
+
 body{
+  hr{
+    margin-bottom:-1px;
+    height:1px;
+    visibility:hidden;
+    clear:both;
+  }
+  
   #header{
     width:100%;
     border-bottom-style:solid;
     border-bottom-width:3px;
+    
+    h1.title{
+      margin-top:0;
+      margin-bottom:0;
+    }
+    
+    .subtitle{
+      text-indent:24em;
+      position:relative;
+      top:-1.25em;
+    }
+  }
+  
+  #footer{
+    p{
+      text-align:right;
+    }
+  }
+  
+  #socialicons{
+    float:right;
+    position:absolute;
+    top:5em;
+    right:1em ;
+    
+    img.socialicon{
+      height:30px;
+      width:30px;
+    }
+  }
+  
+  #menu{
+    float:right;
+    position:absolute;
+    top:0;
+    right:0;
+    
+    ul.menu{
+      list-style:none;
+      li{
+        float:left;
+        display:inline;
+        padding:1em;
+      }
+    }
+  }
+  
+  #main{
+    .breadcrumb{
+      -moz-border-bottom-left-radius: $corner_radius;
+      -moz-border-bottom-right-radius: $corner_radius;
+      border-bottom-left-radius: $corner_radius;
+      border-bottom-right-radius: $corner_radius;
+      padding:1em;
+      margin:0 2em 1em 2em;
+    }
+    
+    .contenttilesection{
+      -moz-border-radius: $corner_radius;
+      border-radius: $corner_radius;
+      padding:1em;
+      margin:0 auto 1em auto;
+      width:80%;
+      
+      .titleintheopen{
+/*        float:left;*/
+/*        -webkit-transform: rotate(-90deg); */
+/*        -moz-transform: rotate(-90deg);*/
+/*        top:15em;*/
+/*        padding:2em 2em;*/
+/*        position:relative;*/
+/*        z-index:-1;*/
+/*        width:10em;*/
+      }
+      .contenttiles{
+        .leftcontenttile{
+          float:left;
+        }
+        .rightcontenttile{
+          float:right;
+          position:relative;
+        }
+        .contenttile{
+          -moz-border-radius: $corner_radius;
+          border-radius: $corner_radius;
+          border-style:solid;
+          border-width:1px;
+/*          width:80%;*/
+          width:45.5%;
+/*          margin:0 auto;*/
+          margin:0;
+          padding:1em;
+          z-index:20;
+
+          p.contenttiletitile{
+            font-weight:bold;
+            font-size:1.4em;
+            margin:0 auto;
+            text-align:center;
+          }
+
+          .contenttilecontent{
+            img.contentimage{
+  /*            float:left;*/
+              height:4em;
+            }
+            p.contenttext{
+  /*            float:right;*/
+            }
+          }
+        }
+      }
+    }
   }
 }
